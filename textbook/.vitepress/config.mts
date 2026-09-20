@@ -21,11 +21,11 @@ function tokenize(text: string) {
 }
 
 export default defineConfig({
+  base: '/us-econ/',
   lang: 'zh-CN',
   title: '美国宏观经济',
   description: '从指标理解到每日监控 · 系统学习教材',
   rewrites: { 'README.md': 'index.md' },
-  cleanUrls: true,
   themeConfig: {
     siteTitle: '美国宏观经济',
     nav: [
