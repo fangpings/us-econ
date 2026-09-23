@@ -1,6 +1,6 @@
-# 22 数据获取与指标字典
+# 24 数据获取与指标字典
 
-[上一节](21-synthesis.md) · [目录](README.md) · [下一节](23-agent-monitoring.md)
+[上一节](23-synthesis.md) · [目录](README.md) · [下一节](25-agent-monitoring.md)
 
 ## 学习目标
 

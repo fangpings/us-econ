@@ -1,6 +1,6 @@
-# 23 每日报告与 agent 分析
+# 25 每日报告与 agent 分析
 
-[上一节](22-data-system.md) · [目录](README.md) · [下一节](24-capstone.md)
+[上一节](24-data-system.md) · [目录](README.md) · [下一节](26-capstone.md)
 
 ## 学习目标
 

@@ -1,6 +1,6 @@
-# 24 毕业项目：从原始数据到宏观简报
+# 26 毕业项目：从原始数据到宏观简报
 
-[上一节](23-agent-monitoring.md) · [目录](README.md) · [指标附录](appendix-a-indicators.md)
+[上一节](25-agent-monitoring.md) · [目录](README.md) · [指标附录](appendix-a-indicators.md)
 
 ## 项目目标
 

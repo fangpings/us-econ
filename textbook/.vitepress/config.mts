@@ -9,7 +9,7 @@ const page = (file: string) => ({
   link: file === 'README.md' ? '/' : `/${file.replace(/\.md$/, '')}`
 })
 const chapters = (from: number, to: number) => files
-  .filter(file => /^\d{2}-/.test(file) && Number(file.slice(0, 2)) >= from && Number(file.slice(0, 2)) <= to)
+  .filter(file => /^\d{2}-.+\.md$/.test(file) && Number(file.slice(0, 2)) >= from && Number(file.slice(0, 2)) <= to)
   .map(page)
 
 // Use word segmentation for Chinese phrases and preserve English tickers/acronyms.
@@ -41,8 +41,8 @@ export default defineConfig({
         ['09—10 · 通胀', 9, 10],
         ['11—13 · 政策与债券', 11, 13],
         ['14—17 · 财政与资金', 14, 17],
-        ['18—20 · 信用与资产', 18, 20],
-        ['21—24 · 综合分析与实践', 21, 24]
+        ['18—22 · 信用、外汇与资产', 18, 22],
+        ['23—26 · 综合分析与实践', 23, 26]
       ] as const).map(([text, from, to]) => ({ text, collapsed: false, items: chapters(from, to) })),
       { text: '配套资料', collapsed: false, items: files.filter(file => file.startsWith('appendix-')).map(page) }
     ],

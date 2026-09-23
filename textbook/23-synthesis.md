@@ -1,6 +1,6 @@
-# 21 证据组合与情景分析
+# 23 证据组合与情景分析
 
-[上一节](20-assets-and-global.md) · [目录](README.md) · [下一节](22-data-system.md)
+[上一节](22-assets-and-global.md) · [目录](README.md) · [下一节](24-data-system.md)
 
 ## 学习目标
 
