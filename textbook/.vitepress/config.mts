@@ -24,7 +24,7 @@ export default defineConfig({
   base: '/us-econ/',
   lang: 'zh-CN',
   title: '美国宏观经济',
-  description: '从指标理解到每日监控 · 系统学习教材',
+  description: '从指标形成到市场理解 · 系统学习教材',
   rewrites: { 'README.md': 'index.md' },
   themeConfig: {
     siteTitle: '美国宏观经济',
@@ -41,8 +41,10 @@ export default defineConfig({
         ['09—10 · 通胀', 9, 10],
         ['11—13 · 政策与债券', 11, 13],
         ['14—17 · 财政与资金', 14, 17],
-        ['18—22 · 信用、外汇与资产', 18, 22],
-        ['23—26 · 综合分析与实践', 23, 26]
+        ['18—19 · 信用与偿债', 18, 19],
+        ['20—21 · 外汇与全球美元', 20, 21],
+        ['22—25 · 股市', 22, 25],
+        ['26 · 商品与跨资产', 26, 26]
       ] as const).map(([text, from, to]) => ({ text, collapsed: false, items: chapters(from, to) })),
       { text: '配套资料', collapsed: false, items: files.filter(file => file.startsWith('appendix-')).map(page) }
     ],
