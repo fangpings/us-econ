@@ -4,13 +4,13 @@ import { defineConfig } from 'vitepress'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
 const files = readdirSync(root).filter(file => file.endsWith('.md')).sort()
+const curriculum: { number: number; slug: string; title: string; module: number }[] = JSON.parse(readFileSync(`${root}.vitepress/curriculum.json`, 'utf8'))
 const page = (file: string) => ({
   text: readFileSync(`${root}${file}`, 'utf8').match(/^# (.+)$/m)?.[1] ?? file,
   link: file === 'README.md' ? '/' : `/${file.replace(/\.md$/, '')}`
 })
-const chapters = (from: number, to: number) => files
-  .filter(file => /^\d{2}-.+\.md$/.test(file) && Number(file.slice(0, 2)) >= from && Number(file.slice(0, 2)) <= to)
-  .map(page)
+const modules = ['经济地图与研究语言', '实体经济的运行', '价格与通胀', '金融体系与货币政策', '财政、国债与利率', '企业与地方政府融资', '住房与家庭资产负债表', '外汇与全球美元', '股票市场', '商品市场', '衍生品、履约与金融机构', '综合分析与研究实践']
+const moduleGroup = (number: number) => ({ text: `模块 ${number} · ${modules[number - 1]}`, collapsed: false, items: curriculum.filter(c => c.module === number).map(c => ({ text: `${String(c.number).padStart(2, '0')} ${c.title}`, link: `/${c.slug}` })) })
 
 // Use word segmentation for Chinese phrases and preserve English tickers/acronyms.
 // The function is serialized by VitePress and runs in both indexing and querying.
@@ -23,11 +23,11 @@ function tokenize(text: string) {
 export default defineConfig({
   base: '/us-econ/',
   lang: 'zh-CN',
-  title: '美国宏观经济',
+  title: '美国宏观经济与金融体系',
   description: '从指标形成到市场理解 · 系统学习教材',
   rewrites: { 'README.md': 'index.md' },
   themeConfig: {
-    siteTitle: '美国宏观经济',
+    siteTitle: '美国宏观经济与金融体系',
     nav: [
       { text: '学习指南', link: '/' },
       { text: '开始阅读', link: '/01-economic-map' },
@@ -36,16 +36,11 @@ export default defineConfig({
     sidebar: [
       { text: '课程介绍', items: [{ text: '学习指南与全书目录', link: '/' }] },
       ...([
-        ['01—03 · 基础语言', 1, 3],
-        ['04—08 · 实体经济', 4, 8],
-        ['09—10 · 通胀', 9, 10],
-        ['11—13 · 政策与债券', 11, 13],
-        ['14—17 · 财政与资金', 14, 17],
-        ['18—19 · 信用与偿债', 18, 19],
-        ['20—21 · 外汇与全球美元', 20, 21],
-        ['22—25 · 股市', 22, 25],
-        ['26 · 商品与跨资产', 26, 26]
-      ] as const).map(([text, from, to]) => ({ text, collapsed: false, items: chapters(from, to) })),
+        ['第一部分 · 宏观经济与数据基础', [1, 2, 3]],
+        ['第二部分 · 金融体系、政策与债务融资', [4, 5, 6]],
+        ['第三部分 · 资产市场、金融工具与风险传导', [7, 8, 9, 10, 11]],
+        ['第四部分 · 综合分析与研究实践', [12]]
+      ] as const).map(([text, numbers]) => ({ text, collapsed: false, items: numbers.map(moduleGroup) })),
       { text: '配套资料', collapsed: false, items: files.filter(file => file.startsWith('appendix-')).map(page) }
     ],
     outline: { level: [2, 3], label: '本页目录' },

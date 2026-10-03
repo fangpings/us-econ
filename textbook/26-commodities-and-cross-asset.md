@@ -1,6 +1,15 @@
+---
+search: false
+sidebar: false
+prev: false
+next: false
+---
+
+> 旧版兼容档案（原第 26 章）。商品机制已迁至[第 34 章](34-commodities.md)，跨资产案例已迁至[第 38 章](38-joint-diagnosis.md)。本页保留原编号与锚点；新学习请使用新版目录。
+
 # 26 原油、黄金与跨资产联系
 
-[上一节](25-equity-flows-and-volatility.md) · [目录](README.md) · [指标附录](appendix-a-indicators.md)
+[上一节](25-equity-flows-and-volatility.md) · [目录](./) · [指标附录](appendix-a-indicators.md)
 
 > 完整重写版 · 2026-09-26。除明确注明的 2020 年历史案例与制度资料外，数值均为教学假设。建议分三次学习：第 1 节看原油，第 2 节看黄金，第 3—5 节完成跨资产应用。不把教学场景写成当前行情。
 
@@ -383,4 +392,4 @@ T+1 可加入后来公开的公司财报及固定期间盈利修订，形成新�
 
 读完不意味着你能唯一解释每次波动，而是应能清楚说明：看到了什么，它如何产生，哪些关系可以计算，哪些因果仍是假说，什么证据会让自己改变判断。这是后续开发每日报告 agent 前，应先由人掌握的判断标准。
 
-[上一节](25-equity-flows-and-volatility.md) · [目录](README.md) · [指标附录](appendix-a-indicators.md)
+[上一节](25-equity-flows-and-volatility.md) · [目录](./) · [指标附录](appendix-a-indicators.md)

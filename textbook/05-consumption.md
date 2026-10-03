@@ -1,6 +1,7 @@
 # 05 消费、收入与家庭现金流
 
-[上一节](04-gdp.md) · [目录](README.md) · [下一节](06-labor.md)
+[上一章](04-gdp.md) · [目录](./) · [下一章](06-labor.md)
+
 
 ## 本章要解决的问题
 
@@ -526,3 +527,5 @@ DPI 为 1,050，个人支出为 1,000，储蓄 50，储蓄率约 4.76%。`1,050 
 消费是否有持续收入支持，很大程度上取决于就业、工时和工资。[下一章](06-labor.md)将进入这几项数据各自的调查和形成过程。
 
 查口径时先用 [BEA PCE 方法手册](https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-05.pdf)及当期收入支出报告；查零售先读 [Census 方法说明](https://www.census.gov/retail/marts/how_surveys_are_collected.html)；查信用风险则区分 [G.19](https://www.federalreserve.gov/releases/g19/about.htm)、[DSR](https://www.federalreserve.gov/releases/DSR/about.htm) 和 [纽约联储家庭债务资料](https://www.newyorkfed.org/microeconomics/hhdc/background)。不同资料是互补的观察窗口，不是名称不同但可以相互替代的同一个数。
+
+[上一章](04-gdp.md) · [目录](./) · [下一章](06-labor.md)

@@ -1,6 +1,7 @@
-# 04 GDP 与增长来源
+# 04 GDP 与经济增长来源
 
-[上一节](03-releases-and-vintages.md) · [目录](README.md) · [下一节](05-consumption.md)
+[上一章](03-releases-and-vintages.md) · [目录](./) · [下一章](05-consumption.md)
+
 
 ## 本章要解决的问题
 
@@ -510,4 +511,6 @@ GDP 不适合每天生成新叙事，却适合做月度监控的核算框架：�
 
 下一章从总量账本进入家庭：[消费增长由什么收入、储蓄与融资支持](05-consumption.md)。
 
-深入时，先读 [BEA 核算入门](https://www.bea.gov/sites/default/files/methodologies/nipa_primer.pdf)，再按问题查 [NIPA 方法手册](https://www.bea.gov/resources/methodologies/nipa-handbook)：第 3 章查来源，第 4 章查估计与链式方法，第 6—9 章分别查投资、库存、贸易、政府。各章更新时间不同，不能以方法手册替代未来发布的当期技术说明。
+深入时，先读 [BEA 核算入门](https://www.bea.gov/sites/default/files/methodologies/nipa_primer.pdf)，再按问题查 [NIPA 方法手册](https://www.bea.gov/resources/methodologies/nipa-handbook)：第 3 章查来源，第 4 章查估计与链式方法，第 6、7、8、9 章分别查投资、库存、贸易、政府。各章更新时间不同，不能以方法手册替代未来发布的当期技术说明。
+
+[上一章](03-releases-and-vintages.md) · [目录](./) · [下一章](05-consumption.md)

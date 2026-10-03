@@ -1,6 +1,6 @@
 # 附录 A：指标注册表与数据入口
 
-[返回目录](README.md) · [数据口径](02-measurement.md) · [发布与修订](03-releases-and-vintages.md)
+[返回目录](./) · [数据口径](02-measurement.md) · [发布与修订](03-releases-and-vintages.md)
 
 这张表用于把教材连接到未来的监控系统，不是要求每天逐项阅读。A 为第一轮核心，B 为第二轮扩展；日/月/季表示观察频率，不代表发布当天即可获得所有数据。SA 为季调，NSA 为非季调，SAAR 为季调年率。
 
@@ -31,7 +31,7 @@
 | A | [工业生产 · INDPRO](https://fred.stlouisfed.org/series/INDPRO) | 月；指数，SA | 环比、制造业分项 | 不覆盖全部服务业；见 07 |
 | B | [住宅建筑许可 · PERMIT](https://fred.stlouisfed.org/series/PERMIT) | 月；千套，SAAR | 三个月均值、单户/多户 | 意愿/批准不等于实际开工 |
 | B | [新屋开工 · HOUST](https://fred.stlouisfed.org/series/HOUST) | 月；千套，SAAR | 趋势、分项 | 波动与天气影响较大 |
-| B | [30年固定房贷利率 · MORTGAGE30US](https://fred.stlouisfed.org/series/MORTGAGE30US) | 周；%，NSA | 水平和 bp 变化 | 调查口径，不代表所有借款人报价 |
+| B | [30年固定房贷利率 · MORTGAGE30US](https://fred.stlouisfed.org/series/MORTGAGE30US) | 周；%，NSA | 水平和 bp 变化 | PMMS 申请资料口径，不代表所有借款人报价；见 25 |
 | B | [劳动生产率 · OPHNFB](https://fred.stlouisfed.org/series/OPHNFB) | 季；指数，SA | 季环比年化、多季趋势 | 非农商业部门每小时产出；见 08 |
 | B | [单位劳动成本 · ULCNFB](https://fred.stlouisfed.org/series/ULCNFB) | 季；指数，SA | 同比、多季趋势 | 不等于消费价格通胀 |
 | A | [CPI · CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL) | 月；指数，SA | 环比、三个月年化、同比 | 比新闻的 NSA 同比时先核对口径 |
@@ -45,15 +45,15 @@ CPI 新闻标题同比常使用非季调序列。若需要严格复现，另读�
 
 | 优先级 | 指标 / FRED 编号 | 频率与原始口径 | 建议观察方式 | 解释与常见误读 |
 | --- | --- | --- | --- | --- |
-| A | [目标下限 · DFEDTARL](https://fred.stlouisfed.org/series/DFEDTARL) / [上限 · DFEDTARU](https://fred.stlouisfed.org/series/DFEDTARU) | 日；%，NSA | 生效日、政策变化 | 目标与实现利率不同；见 11 |
+| A | [目标下限 · DFEDTARL](https://fred.stlouisfed.org/series/DFEDTARL) / [上限 · DFEDTARU](https://fred.stlouisfed.org/series/DFEDTARU) | 日；%，NSA | 生效日、政策变化 | 目标与实现利率不同；见 13 |
 | A | [EFFR](https://fred.stlouisfed.org/series/EFFR) | 日；%，NSA | 与目标及 IORB 比较 | 按交易日匹配 |
 | A | [IORB](https://fred.stlouisfed.org/series/IORB) | 日；%，NSA | 当日有效管理利率 | 不得用已公布但未来生效值错配 |
 | A | [SOFR](https://fred.stlouisfed.org/series/SOFR) | 日；%，NSA | 利差、成交量、分位、日历 | 通常下一营业日公布交易日数值 |
-| A | [2Y · DGS2](https://fred.stlouisfed.org/series/DGS2) | 日；%，NSA | 1/5/20有效观察间隔 bp 变化 | 常数期限收益率；见 12 |
+| A | [2Y · DGS2](https://fred.stlouisfed.org/series/DGS2) | 日；%，NSA | 1/5/20有效观察间隔 bp 变化 | 常数期限收益率；见 17 |
 | A | [10Y · DGS10](https://fred.stlouisfed.org/series/DGS10) | 日；%，NSA | 同上 | 不是债券价格 |
 | A | [30Y · DGS30](https://fred.stlouisfed.org/series/DGS30) | 日；%，NSA | 与短端、供给联合 | 不单独识别财政风险 |
 | B | [3M · DGS3MO](https://fred.stlouisfed.org/series/DGS3MO) | 日；%，NSA | 3m10y、政策路径 | 不与银行贴现率口径混用 |
-| A | [10Y 实际收益率 · DFII10](https://fred.stlouisfed.org/series/DFII10) | 日；%，NSA | 与同期限名义比较 | 实际利率不等于实际持有收益；见 13 |
+| A | [10Y 实际收益率 · DFII10](https://fred.stlouisfed.org/series/DFII10) | 日；%，NSA | 与同期限名义比较 | 实际利率不等于实际持有收益；见 19 |
 | A | [10Y BEI · T10YIE](https://fred.stlouisfed.org/series/T10YIE) | 日；%，NSA | bp 变化、来源方法 | 通胀补偿，非纯预期 |
 | A | [Fed 总资产 · WALCL](https://fred.stlouisfed.org/series/WALCL) | 周；百万美元，NSA，周三时点 | 变化与资产项目构成 | 扩表不自动等于 QE |
 | A | [准备金 · WRESBAL](https://fred.stlouisfed.org/series/WRESBAL) | 周；百万美元，NSA，周均 | 余额、变化、资金价格 | 不是每天的新准备金值 |
@@ -66,9 +66,9 @@ CPI 新闻标题同比常使用非季调序列。若需要严格复现，另读�
 
 | 优先级 | 指标 / FRED 编号 | 频率与原始口径 | 建议观察方式 | 解释与常见误读 |
 | --- | --- | --- | --- | --- |
-| A | [IG OAS · BAMLC0A0CM](https://fred.stlouisfed.org/series/BAMLC0A0CM) | 日；%，NSA | bp 变化、可得样本分位 | 指数而非单家银行；见 19 |
+| A | [IG OAS · BAMLC0A0CM](https://fred.stlouisfed.org/series/BAMLC0A0CM) | 日；%，NSA | bp 变化、可得样本分位 | 指数而非单家银行；见 21 |
 | A | [HY OAS · BAMLH0A0HYM2](https://fred.stlouisfed.org/series/BAMLH0A0HYM2) | 日；%，NSA | 同上，配绝对收益率 | 不能直接换算违约概率 |
-| B | [银行贷款与租赁 · TOTLL](https://fred.stlouisfed.org/series/TOTLL) | 周；十亿美元，SA | 同比、类别和修订 | 存量不是发放额；见 18 |
+| B | [银行贷款与租赁 · TOTLL](https://fred.stlouisfed.org/series/TOTLL) | 周；十亿美元，SA | 同比、类别和修订 | 存量不是发放额；见 15 |
 | B | [银行存款 · DPSACBW027SBOG](https://fred.stlouisfed.org/series/DPSACBW027SBOG) | 周；十亿美元，SA | 变动、银行类别 | 总量稳定可能掩盖分布变化 |
 | B | [大中型企业贷款标准 · DRTSCILM](https://fred.stlouisfed.org/series/DRTSCILM) | 季；净比例%，NSA | 水平、百分点变化 | 仅 SLOOS 一个问题，需配需求项 |
 | B | [家庭偿债率 · TDSP](https://fred.stlouisfed.org/series/TDSP) | 季；可支配收入占比%，SA | 趋势、方法变化 | 总量不能代替收入组别风险 |
@@ -119,3 +119,20 @@ IG 和 HY 上述 FRED 页面截至 2026-09-15 均标明自 2026 年 4 月起仅�
 就业和 CPI 通常按月发布，PCE 随个人收入支出报告发布，GDP 按季度多次估计，初请按周发布，H.4.1 按周发布。具体哪一天、几点以及假日调整，必须读取官方日历。
 
 不要把“通常每周某日”当成永久定时规则。采集程序应同时保存预定发布、实际发布和抓取完成状态，才能判断数据是否迟到。
+
+## 8. 扩展市场的注册对象：不一定是一条每日时间序列
+
+以下是注册设计，不是已经打通的接口。来源方法见相应正文；动态权限、报价授权和下载格式需在实际接入时重新核查。企业融资和抵押品风险尤其需要合同与主体字段，不能只增加几个价格代码。
+
+| 对象与章节 | 应保存什么 | 最容易遗漏的边界 |
+| --- | --- | --- |
+| 公司债、贷款、私人信贷 · [20](20-corporate-financing.md) | 发行主体、币种、面值、净募集款、期限、固定/浮动、参考利率、优先级、抵押、契约、承诺与提款 | 银团各参与行不能把同一笔贷款重复计为多笔；发行额不是净融资 |
+| 市政债 · [22](22-municipal-finance.md) | 发行人与偿债收入、税务属性、到期与赎回表、发行文件、持续披露、成交时刻 | 免税不等于无风险；不同债券的税务待遇不能混用 |
+| 住房 · [23](23-housing-market.md) | 许可、开工、竣工、签约/交割、施工阶段库存、SAAR/NSA、地区、同质价格指数与中位价 | 库存月数的分母、售出时点和房屋构成 |
+| 房贷与家庭 · [25](25-mortgages-households.md) | 贷款本金、合同利率、报价费用、重定价与摊还规则、收入、其他债务、流动资产 | PMMS 不是全体借款人的实际成交利率；净值不等于还款现金 |
+| MBS · [26](26-housing-securitization.md) | 池与证券标识、担保、票息、原始面值、余额因子、偿还与提前还款、价格日期 | 本金返还不是利息收入；一般不能当作固定现金流债券 |
+| 衍生品 · [35](35-derivative-contracts.md) | 标的、合约月份、数量、乘数、方向、报价单位、结算与交割、行权条款 | 名义本金不是市值、保证金或最大损失；连续期货不是一份合约 |
+| 履约与抵押 · [36](36-market-infrastructure.md) | 交易日、结算日、义务主体、净额集合、抵押品估值、折扣、保证金时限 | 经济套保有效也可能缺现金；不得跨合同任意净额 |
+| 金融机构 · [37](37-financial-institutions.md) | 资产持有、负债期限、赎回权、杠杆、可动用现金、披露截止与公布时间 | 持仓是存量；基金净值增加不等于获得同额净申购 |
+
+[第 40 章](40-data-workflow.md)用一个刻意很小的离线样本示范版本选择。该程序仅支持样本的月度和季度观察，不宣称能直接处理上表的全部合同、日历或实时数据。

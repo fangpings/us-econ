@@ -1,0 +1,296 @@
+[
+  {
+    "number": 1,
+    "source": "01-economic-map",
+    "slug": "01-economic-map",
+    "title": "经济地图：生产、收入、支出与融资",
+    "module": 1
+  },
+  {
+    "number": 2,
+    "source": "02-measurement",
+    "slug": "02-measurement",
+    "title": "数字、增长率与统计口径",
+    "module": 1
+  },
+  {
+    "number": 3,
+    "source": "03-releases-and-vintages",
+    "slug": "03-releases-and-vintages",
+    "title": "数据发布、市场预期与历史修订",
+    "module": 1
+  },
+  {
+    "number": 4,
+    "source": "04-gdp",
+    "slug": "04-gdp",
+    "title": "GDP 与经济增长来源",
+    "module": 2
+  },
+  {
+    "number": 5,
+    "source": "05-consumption",
+    "slug": "05-consumption",
+    "title": "消费、收入与家庭现金流",
+    "module": 2
+  },
+  {
+    "number": 6,
+    "source": "06-labor",
+    "slug": "06-labor",
+    "title": "就业、失业与工资",
+    "module": 2
+  },
+  {
+    "number": 7,
+    "source": "07-business-and-housing",
+    "slug": "07-business-activity",
+    "title": "企业生产、景气与资本开支",
+    "module": 2
+  },
+  {
+    "number": 8,
+    "source": "08-productivity",
+    "slug": "08-productivity",
+    "title": "生产率、供给约束与长期增长",
+    "module": 2
+  },
+  {
+    "number": 9,
+    "source": "09-inflation-measures",
+    "slug": "09-inflation-measures",
+    "title": "CPI、PCE 与价格指数",
+    "module": 3
+  },
+  {
+    "number": 10,
+    "source": "10-inflation-mechanisms",
+    "slug": "10-inflation-mechanisms",
+    "title": "通胀来源、持续性与预期",
+    "module": 3
+  },
+  {
+    "number": 11,
+    "source": "financial-system-map",
+    "slug": "11-financial-system-map",
+    "title": "金融体系地图：资金、合同、机构与市场",
+    "module": 4
+  },
+  {
+    "number": 12,
+    "source": "15-balance-sheets",
+    "slug": "12-bank-balance-sheets",
+    "title": "银行资产负债表、存款与准备金",
+    "module": 4
+  },
+  {
+    "number": 13,
+    "source": "11-monetary-policy",
+    "slug": "13-monetary-policy",
+    "title": "美联储与货币政策传导",
+    "module": 4
+  },
+  {
+    "number": 14,
+    "source": "16-money-markets",
+    "slug": "14-money-markets",
+    "title": "货币市场：回购、SOFR 与短期融资",
+    "module": 4
+  },
+  {
+    "number": 15,
+    "source": "18-bank-credit",
+    "slug": "15-bank-credit",
+    "title": "银行信贷、非银行融资与金融条件",
+    "module": 4
+  },
+  {
+    "number": 16,
+    "source": "14-fiscal-policy",
+    "slug": "16-fiscal-policy",
+    "title": "财政、政府债务、发行安排与 TGA",
+    "module": 5
+  },
+  {
+    "number": 17,
+    "source": "12-bonds-and-curves",
+    "slug": "17-bonds-and-curves",
+    "title": "债券合同、价格、久期与收益率曲线",
+    "module": 5
+  },
+  {
+    "number": 18,
+    "source": "17-treasury-plumbing",
+    "slug": "18-treasury-plumbing",
+    "title": "国债拍卖、二级交易与市场流动性",
+    "module": 5
+  },
+  {
+    "number": 19,
+    "source": "13-yield-decomposition",
+    "slug": "19-yield-decomposition",
+    "title": "实际收益率、通胀补偿与期限溢价",
+    "module": 5
+  },
+  {
+    "number": 20,
+    "source": "corporate-financing",
+    "slug": "20-corporate-financing",
+    "title": "企业债务融资：公司债、银团贷款与私人信贷",
+    "module": 6
+  },
+  {
+    "number": 21,
+    "source": "19-credit-risk",
+    "slug": "21-credit-risk",
+    "title": "信用利差、违约、清偿与偿债能力",
+    "module": 6
+  },
+  {
+    "number": 22,
+    "source": "municipal-finance",
+    "slug": "22-municipal-finance",
+    "title": "州与地方政府融资：市政债与财政约束",
+    "module": 6
+  },
+  {
+    "number": 23,
+    "source": "housing-market",
+    "slug": "23-housing-market",
+    "title": "住房市场：开发、交易、库存与价格",
+    "module": 7
+  },
+  {
+    "number": 24,
+    "source": "housing-returns",
+    "slug": "24-housing-returns",
+    "title": "买房、租房与住房持有回报",
+    "module": 7
+  },
+  {
+    "number": 25,
+    "source": "mortgages-households",
+    "slug": "25-mortgages-households",
+    "title": "按揭、再融资与家庭资产负债表",
+    "module": 7
+  },
+  {
+    "number": 26,
+    "source": "housing-securitization",
+    "slug": "26-housing-securitization",
+    "title": "从房贷到 MBS：住房金融与证券化",
+    "module": 7
+  },
+  {
+    "number": 27,
+    "source": "housing-cycle",
+    "slug": "27-housing-cycle",
+    "title": "住房周期、金融风险与宏观传导",
+    "module": 7
+  },
+  {
+    "number": 28,
+    "source": "20-fx-and-dollar",
+    "slug": "28-fx-and-dollar",
+    "title": "外汇市场、汇率与美元定价",
+    "module": 8
+  },
+  {
+    "number": 29,
+    "source": "21-global-dollar",
+    "slug": "29-global-dollar",
+    "title": "离岸美元、跨境融资与国际收支",
+    "module": 8
+  },
+  {
+    "number": 30,
+    "source": "22-assets-and-global",
+    "slug": "30-equity-market",
+    "title": "股票发行、交易与指数",
+    "module": 9
+  },
+  {
+    "number": 31,
+    "source": "23-corporate-earnings",
+    "slug": "31-corporate-earnings",
+    "title": "企业盈利、财报与预期",
+    "module": 9
+  },
+  {
+    "number": 32,
+    "source": "24-equity-valuation",
+    "slug": "32-equity-valuation",
+    "title": "股票估值与宏观传导",
+    "module": 9
+  },
+  {
+    "number": 33,
+    "source": "25-equity-flows-and-volatility",
+    "slug": "33-shareholder-returns",
+    "title": "股东回报、资金行为与市场波动",
+    "module": 9
+  },
+  {
+    "number": 34,
+    "source": "26-commodities-and-cross-asset",
+    "slug": "34-commodities",
+    "title": "商品市场：原油、黄金、库存与期货曲线",
+    "module": 10
+  },
+  {
+    "number": 35,
+    "source": "derivative-contracts",
+    "slug": "35-derivative-contracts",
+    "title": "衍生品合同：远期、期货、互换与期权",
+    "module": 11
+  },
+  {
+    "number": 36,
+    "source": "market-infrastructure",
+    "slug": "36-market-infrastructure",
+    "title": "从成交到履约：清算、结算、保证金与抵押品",
+    "module": 11
+  },
+  {
+    "number": 37,
+    "source": "financial-institutions",
+    "slug": "37-financial-institutions",
+    "title": "谁在持有资产：基金、保险、养老金与杠杆投资者",
+    "module": 11
+  },
+  {
+    "number": 38,
+    "source": "joint-diagnosis",
+    "slug": "38-joint-diagnosis",
+    "title": "宏观与市场联合诊断：竞争性解释与证据组合",
+    "module": 12
+  },
+  {
+    "number": 39,
+    "source": "historical-research",
+    "slug": "39-historical-research",
+    "title": "历史事件研究：重建当时可得的信息",
+    "module": 12
+  },
+  {
+    "number": 40,
+    "source": "data-workflow",
+    "slug": "40-data-workflow",
+    "title": "数据工作流：指标注册、版本、转换与质量检查",
+    "module": 12
+  },
+  {
+    "number": 41,
+    "source": "research-reports",
+    "slug": "41-research-reports",
+    "title": "日报、周报与月报：从观测到判断",
+    "module": 12
+  },
+  {
+    "number": 42,
+    "source": "capstone-report",
+    "slug": "42-capstone-report",
+    "title": "毕业项目：完成一份可复核的宏观金融报告",
+    "module": 12
+  }
+]

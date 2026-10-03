@@ -3,9 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "check": "node tools/check_textbook.mjs && python3 -m unittest discover -s tests -v",
+    "check:rendered": "python3 tools/check_rendered.py",
     "dev": "vitepress dev textbook --host 127.0.0.1 --port 5173 --strictPort",
     "build": "vitepress build textbook",
-    "preview": "vitepress preview textbook --host 127.0.0.1 --port 4173"
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort --outDir textbook/.vitepress/dist --base /us-econ/"
   },
   "devDependencies": {
     "vitepress": "^1.6.4"

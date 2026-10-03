@@ -1,6 +1,7 @@
 # 06 就业、失业与工资
 
-[上一节](05-consumption.md) · [目录](README.md) · [下一节](07-business-and-housing.md)
+[上一章](05-consumption.md) · [目录](./) · [下一章](07-business-activity.md)
+
 
 ## 本章要解决的问题
 
@@ -513,6 +514,8 @@ AHE 可能因低薪工时权重下降而上涨。固定行业职业结构的工�
 
 ## 下一步阅读
 
-劳动需求最终与企业订单、生产、融资和投资相连。[下一章](07-business-and-housing.md)将转向企业活动与房地产，观察企业在招聘之前和之后还会调整什么。
+劳动需求最终与企业订单、生产、融资和投资相连。[下一章](07-business-activity.md)将转向企业订单、生产与资本开支，观察企业在招聘之前和之后还会调整什么。
 
 查具体规则时优先读 [CES 方法手册](https://www.bls.gov/opub/hom/ces/calculation.htm)、[CPS 概念](https://www.bls.gov/cps/definitions.htm)与当次报告技术说明；查流动看 [JOLTS](https://www.bls.gov/jlt/jltdef.htm)，查成本看 [ECI](https://www.bls.gov/opub/hom/eci/calculation.htm)。方法、权重、覆盖与历史版本会更新，教材中的历史案例不应被当作当前数据。
+
+[上一章](05-consumption.md) · [目录](./) · [下一章](07-business-activity.md)

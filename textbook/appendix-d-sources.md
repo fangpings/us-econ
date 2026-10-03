@@ -1,6 +1,6 @@
 # 附录 D：官方资料阅读路线
 
-[返回目录](README.md)
+[返回目录](./)
 
 正文提供了理解框架。遇到定义、修订或数据口径问题，回到发布机构的方法与元数据。以下不是要求一次读完的书单；每轮只完成对应任务。
 
@@ -8,15 +8,15 @@
 
 | 资料 | 什么时候读 | 需要找到的答案 |
 | --- | --- | --- |
-| [BEA 国民账户入门](https://www.bea.gov/resources/methodologies/measuring-the-economy) | 第 01、04 节后 | GDP 的边界，生产、收入与支出的关系 |
-| [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) | 第 04 节后 | 当期增长贡献、实际与名义、修订 |
-| [BEA 消费支出](https://www.bea.gov/data/consumer-spending/main) | 第 05 节后 | PCE 量与价格，商品与服务 |
-| [BEA 个人收入](https://www.bea.gov/data/income-saving/personal-income) | 第 05 节后 | 可支配收入、个人支出、储蓄 |
-| [BLS 家庭与企业调查比较](https://www.bls.gov/web/empsit/ces_cps_trends.htm) | 第 06 节后 | 为什么岗位与人数不同 |
-| [BLS JOLTS](https://www.bls.gov/jlt/) | 第 06 节后 | 职位空缺、招聘、离职的存量/流量定义 |
-| [美联储工业生产 G.17](https://www.federalreserve.gov/releases/g17/) | 第 07 节后 | 总指数与制造业、公用事业分项 |
-| [Census 新住宅建设](https://www.census.gov/construction/nrc/index.html) | 第 07 节后 | 许可、开工、竣工与 SAAR |
-| [BLS 生产率](https://www.bls.gov/productivity/) | 第 08 节后 | 产出、工时、劳动报酬与 ULC |
+| [BEA 国民账户入门](https://www.bea.gov/resources/methodologies/measuring-the-economy) | 第 01、04 章后 | GDP 的边界，生产、收入与支出的关系 |
+| [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) | 第 04 章后 | 当期增长贡献、实际与名义、修订 |
+| [BEA 消费支出](https://www.bea.gov/data/consumer-spending/main) | 第 05 章后 | PCE 量与价格，商品与服务 |
+| [BEA 个人收入](https://www.bea.gov/data/income-saving/personal-income) | 第 05 章后 | 可支配收入、个人支出、储蓄 |
+| [BLS 家庭与企业调查比较](https://www.bls.gov/web/empsit/ces_cps_trends.htm) | 第 06 章后 | 为什么岗位与人数不同 |
+| [BLS JOLTS](https://www.bls.gov/jlt/) | 第 06 章后 | 职位空缺、招聘、离职的存量/流量定义 |
+| [美联储工业生产 G.17](https://www.federalreserve.gov/releases/g17/) | 第 07 章后 | 总指数与制造业、公用事业分项 |
+| [Census 新住宅建设](https://www.census.gov/construction/nrc/index.html) | 第 23 章后 | 许可、开工、竣工与 SAAR |
+| [BLS 生产率](https://www.bls.gov/productivity/) | 第 08 章后 | 产出、工时、劳动报酬与 ULC |
 
 阅读练习：任选报告，先不看媒体，抄出标题数字、一个重要分项、一个修订和一个方法限制，再阅读媒体比较遗漏了什么。
 
@@ -76,7 +76,31 @@
 
 阅读练习：选一条序列，记录来源定义与元数据，再取得两个版本。说明“观察值改变”“历史值修订”和“数据源今天补录”如何区分。
 
-## 6. 资料发生变化时
+## 6. 企业、地方政府与住房金融
+
+下面均是正文所用的一手资料入口；先带着问题读，不能只下载数字。方法核查与案例版本以相应章节为准。
+
+| 原始资料 | 阅读任务与对应章 |
+| --- | --- |
+| [Fed：2024 Shared National Credit 发布](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250310a.htm) | 20：区分承诺金额与提款余额，找覆盖门槛；不把该样本泛化为所有私人信贷 |
+| [美国法院：Chapter 11 基础](https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics) | 21：区分经营延续、重组程序与债权清偿，不把申请破产等同资产立即归零 |
+| [MSRB：Official Statements](https://www.msrb.org/Official-Statements) | 22：定位偿债来源、赎回、用途和风险段落，再对照持续披露 |
+| [Census：住宅建设定义](https://www.census.gov/construction/soc/definitions.html) | 23：区分许可、开工、竣工和出售记录时点 |
+| [CFPB：Closing Disclosure 带读](https://www.consumerfinance.gov/owning-a-home/closing-disclosure/) | 24—25：逐项核对贷款本金、月供、费用与交割所需现金，避免费用重复计算 |
+| [Freddie Mac：MBS 机制](https://capitalmarkets.freddiemac.com/mbs/understanding-mortgage-backed-securities) | 26：追踪贷款购买、入池、证券现金流与提前还款 |
+| [纽约联储：2020 年 MBS 市场失灵研究](https://libertystreeteconomics.newyorkfed.org/2020/07/mbs-market-dysfunctions-in-the-time-of-covid-19/) | 27：分清抵押资产信用、交易流动性和杠杆现金需求；这是事后研究，不是事件当天已有的全文证据 |
+
+## 7. 衍生品、履约、机构与可复核研究
+
+| 原始资料 | 阅读任务与对应章 |
+| --- | --- |
+| [CME：期货保证金](https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed) | 35—36：区分头寸名义规模、保证金和逐日盈亏；再对照具体合约规格 |
+| [DTCC：CNS 净额系统](https://www.dtcc.com/products-and-services/clearing-settlement-services/equities-clearing/cns) | 36：区分净额清算与证券结算；不是所有金融产品共用同一流程 |
+| [SEC：2024 年 T+1 实施公告](https://www.sec.gov/newsroom/press-releases/2024-62) | 36：核对生效日和覆盖范围，不泛化为全球所有市场 |
+| [Fed：2026 年 5 月金融稳定报告资金风险](https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm) | 37：区分可赎回负债与底层资产流动性；标注报告版本 |
+| [BEA：2024 Q1 GDP 初值](https://www.bea.gov/news/2024/gross-domestic-product-first-quarter-2024-advance-estimate) | 39—40：抄观察期、公布时刻、增速及单位，再与第二、第三次估计比较；离线样本保留三个不同版本 |
+
+## 8. 资料发生变化时
 
 网页打不开不代表指标不存在，可能是链接迁移、访问限制或临时故障。回到机构首页搜索原始名称，核对编号与定义；不要用名字相近的序列无声替代。
 

@@ -1,6 +1,7 @@
-# 08 生产率与供给约束
+# 08 生产率、供给约束与长期增长
 
-[上一节](07-business-and-housing.md) · [目录](README.md) · [下一节](09-inflation-measures.md)
+[上一章](07-business-activity.md) · [目录](./) · [下一章](09-inflation-measures.md)
+
 
 ## 本章要解决的问题：增长强，为什么不一定通胀高
 
@@ -544,4 +545,4 @@ A 的缺口为 `105 / 102 − 1 ≈ +2.94%`，B 为 `105 / 106 − 1 ≈ −0.94
 
 到这里，实体经济模块已经把需求、生产、就业与供给连接起来。下一章将转向价格：CPI 和 PCE 到底测量什么，怎样从真实交易与价格资料形成指数，以及为什么同一时期可以给出不同的通胀读数。
 
-[上一节](07-business-and-housing.md) · [目录](README.md) · [下一节](09-inflation-measures.md)
+[上一章](07-business-activity.md) · [目录](./) · [下一章](09-inflation-measures.md)

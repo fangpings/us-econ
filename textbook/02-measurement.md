@@ -1,6 +1,7 @@
 # 02 数字、增长率与统计口径
 
-[上一节](01-economic-map.md) · [目录](README.md) · [下一节](03-releases-and-vintages.md)
+[上一章](01-economic-map.md) · [目录](./) · [下一章](03-releases-and-vintages.md)
+
 
 > 重写版 · 2026-09-16。建议分三次学习：第 1—3 节掌握比较与时间窗口；第 4—6 节理解数据加工；第 7—10 节练习报告阅读与核查。除明确标注的历史报告外，全部数字为教学假设。
 
@@ -247,7 +248,7 @@ SA 是 seasonally adjusted，季节调整后；NSA 是 not seasonally adjusted�
 
 CPI 是消费者价格指数，衡量特定消费范围内的价格变化，不是所有经济活动通用的价格修正系数。研究实际个人收入时要说明采用哪种消费价格口径；研究官方实际 GDP，应尊重其自身价格与数量核算。不能凭方便选择一个通胀率，得到的数却冒充官方实际增速。
 
-现实还要解决新产品、质量与消费结构变化。BEA 的数量与价格核算采用相邻时期信息构造链式指标，而不是永远按同一个很久以前的购物篮子计价；相关方法在[第 09 章](09-inflation-measures.md)展开。[BEA：国民账户估计方法，第 4 章](https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-04.pdf)
+现实还要解决新产品、质量与消费结构变化。BEA 的数量与价格核算采用相邻时期信息构造链式指标，而不是永远按同一个很久以前的购物篮子计价；相关方法在[第 9 章](09-inflation-measures.md)展开。[BEA：国民账户估计方法，第 4 章](https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-04.pdf)
 
 “链式实际美元”可理解为将链式数量指数按参考年金额缩放后的表达，不能把它当作始终用同一固定价格表计算的金额。其各分项通常不能直接相加得到总量；计算分项占比一般使用相容的名义金额，分析实际增长贡献则读取专门的贡献表。[BEA：链式美元估计说明](https://www.bea.gov/help/glossary/chained-dollar-estimates)
 
@@ -406,7 +407,7 @@ Table A 左侧的月度栏标为 *Seasonally adjusted changes from preceding mon
 
 自动检查应拒绝或标记以下情况：分母为零，输入口径不同，所需月份缺失，已是增长率却再次求百分比变化，SAAR 被重复年率化，以及百分数与小数形式混用。缺失值不能自动填为零；零表示观测到无数量或某种中性水平，缺失表示不知道。
 
-至于今天新发布的值和历史修订该怎样分别处理，留到[第 03 章](03-releases-and-vintages.md)。本章先守住一条原则：每个分析读数都应能沿计算链回到相容的输入。
+至于今天新发布的值和历史修订该怎样分别处理，留到[第 3 章](03-releases-and-vintages.md)。本章先守住一条原则：每个分析读数都应能沿计算链回到相容的输入。
 
 ## 10. 练习与参考答案
 
@@ -515,3 +516,5 @@ Table A 左侧的月度栏标为 *Seasonally adjusted changes from preceding mon
 - [2024 年 6 月 CPI 历史报告](https://www.bls.gov/news.release/archives/cpi_07112024.htm)：练习先读表头，再读数字，不用最新修订序列悄悄替换历史版本。
 
 下一章将从“这两个数能否比较”推进到“当时究竟能知道哪两个数”，解释发布、预期和历史修订怎样改变判断。
+
+[上一章](01-economic-map.md) · [目录](./) · [下一章](03-releases-and-vintages.md)

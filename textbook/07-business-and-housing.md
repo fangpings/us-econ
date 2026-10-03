@@ -1,6 +1,15 @@
+---
+search: false
+sidebar: false
+prev: false
+next: false
+---
+
+> 旧版兼容档案（原第 07 章）。企业内容已迁至[第 07 章](07-business-activity.md)，住房专题从[第 23 章](23-housing-market.md)开始。本页保留原编号与锚点，便于旧链接和姐妹篇引用；新学习请使用新版。
+
 # 07 企业活动与房地产
 
-[上一节](06-labor.md) · [目录](README.md) · [下一节](08-productivity.md)
+[上一节](06-labor.md) · [目录](./) · [下一节](08-productivity.md)
 
 ## 从“生意变好了”追问到真实的生产与交易
 
@@ -493,4 +502,4 @@ L = M × [1 − (1 + r)^(-n)] / r
 
 读懂这些区别之后，你可以进一步问：同样多的工人、设备和工时，为什么能生产更多东西？这正是下一章“生产率与供给约束”的起点。
 
-[上一节](06-labor.md) · [目录](README.md) · [下一节](08-productivity.md)
+[上一节](06-labor.md) · [目录](./) · [下一节](08-productivity.md)
