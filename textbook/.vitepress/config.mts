@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
 const files = readdirSync(root).filter(file => file.endsWith('.md')).sort()
@@ -20,12 +21,15 @@ function tokenize(text: string) {
     .map(part => part.segment)
 }
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   base: '/us-econ/',
   lang: 'zh-CN',
   title: '美国宏观经济与金融体系',
   description: '从指标形成到市场理解 · 系统学习教材',
   rewrites: { 'README.md': 'index.md' },
+  markdown: { math: true },
+  // mermaid 11 depends on CommonJS packages (e.g. fastdom); pre-bundle it so the dev server can load it as ESM.
+  vite: { optimizeDeps: { include: ['mermaid'] } },
   themeConfig: {
     siteTitle: '美国宏观经济与金融体系',
     nav: [
@@ -67,4 +71,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))

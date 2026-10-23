@@ -12,6 +12,33 @@
 }
 
 .vp-doc p, .vp-doc li { line-height: 1.9; }
+
+/* 彻底修复 Mermaid 流程图内部中文文字截断与吞字问题 */
+.vp-doc .mermaid {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.vp-doc .mermaid svg {
+  overflow: visible !important;
+}
+.vp-doc .mermaid foreignObject {
+  overflow: visible !important;
+}
+.vp-doc .mermaid foreignObject div {
+  overflow: visible !important;
+}
+.vp-doc .mermaid foreignObject p,
+.vp-doc .mermaid foreignObject span,
+.vp-doc .mermaid foreignObject div {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.35 !important;
+}
+.vp-doc .mermaid .edgeLabel p,
+.vp-doc .mermaid .node p {
+  margin: 0 !important;
+  line-height: 1.35 !important;
+}
 .vp-doc h1 { line-height: 1.45; }
 .vp-doc table { font-size: 14px; }
 .vp-doc summary { cursor: pointer; }
