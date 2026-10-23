@@ -30,6 +30,25 @@ export default withMermaid(defineConfig({
   markdown: { math: true },
   // mermaid 11 depends on CommonJS packages (e.g. fastdom); pre-bundle it so the dev server can load it as ESM.
   vite: { optimizeDeps: { include: ['mermaid'] } },
+  mermaid: {
+    theme: 'default',
+    flowchart: {
+      useMaxWidth: true,
+      htmlLabels: true,
+      curve: 'basis',
+      nodeSpacing: 50,
+      rankSpacing: 65,
+      padding: 16
+    },
+    themeVariables: {
+      fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+      fontSize: '14px',
+      primaryColor: '#e6f4f1',
+      primaryBorderColor: '#238c83',
+      primaryTextColor: '#1b3835',
+      lineColor: '#238c83'
+    }
+  },
   themeConfig: {
     siteTitle: '美国宏观经济与金融体系',
     nav: [
